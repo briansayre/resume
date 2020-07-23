@@ -1,4 +1,5 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
 % resume - one page, one column
 % XeLaTeX Template
 % Version 1.1 (09.05.2017)
@@ -7,6 +8,8 @@
 %
 % Repository: https://github.com/briansayre/resume
 % 
+% To generate PDF: xelatex resume.tex
+%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \documentclass[]{resume}
@@ -27,10 +30,11 @@
 % argument to environment should match number of sites
 \begin{subheader}{1}
     % leave third argument empty to specify no hyperlink
-    \site{GitHub}{github.com/briansayre}{https://github.com/briansayre}
-    \site{Personal}{briansayre.com}{https://www.briansayre.com}
     \site{Email}{bsayre@iastate.edu}{}
-    \site{Phone}{(319)-804-5234}{}\\
+    \site{Phone}{(319)-804-5234}{}
+    \site{GitHub}{/briansayre}{https://github.com/briansayre}
+    \site{Linkedin}{/in/brian-sayre}{https://www.linkedin.com/in/brian-sayre/}
+    \site{Personal}{briansayre.com}{https://www.briansayre.com}\\
 \end{subheader}
 
 %%%%%%%%%
@@ -38,8 +42,8 @@
 %%%%%%%%%
 \begin{topic}{Skills}
     % \skillset{category}{members}
-    \skillset{Languages}{Java, Python, C, JavaScript}\\
-    \skillset{Tools}{AWS, React, Unix shell, {\fontfamily{cmr}\selectfont \LaTeX}}\\
+    \skillset{Languages}{Java, Python, C, JavaScript, SQL}
+    \skillset{Tools}{AWS, React, Git, Unix shell, {\fontfamily{cmr}\selectfont \LaTeX}}\\
 \end{topic}
 
 %%%%%%%%%%%%
@@ -47,9 +51,12 @@
 %%%%%%%%%%%%
 \begin{topic}{Education}
     % \entry{institution}{dates}{subtitle}{description}
-    \entry{Iowa State University}{August 2018 - May 2022}
+    \entry{Iowa State University}{Aug 2018 - May 2022}
     {Bachelor of Science in Software Engineering}
-    {Data Science Minor \newline 3.89/4.00 GPA}\\
+    {
+        - Data Science Minor \newline 
+        - 3.89/4.00 GPA
+    }\\
 \end{topic}
 
 %%%%%%%%%%%%%
@@ -57,21 +64,23 @@
 %%%%%%%%%%%%%
 \begin{topic}{Experience}
     % \entry{role}{dates}{team/company}{description}
-    \entry{Software Engineering Intern}{May 2020 - August 2020}
+    \entry{Software Engineering Intern}{May 2020 - Aug 2020}
     {Principal Financial Group, Des Moines, IA}
     {
-        - Did AWS \newline
-        - More Stuff \newline
-        - Yeet
+        - Created a proof-of-concept for an internal chatbot for Principal's employees to use \newline
+        - Developed using the AWS Cloud Development Kit written in Python \newline
+        - Worked with a team of six interns practicing Scrum agile development  \newline
+        - Winner of PFG Summer Code Jam/Hackathon out of 15 other intern teams
     }
-    \entry{Software Engineering Learning Community Peer Mentor}{August 2019 - Present}
+    \entry{Software Engineering Learning Community Peer Mentor}{Aug 2019 - Present}
     {Iowa State University, Ames, IA}
     {
-        - Host office hours and attend labs for an introduction to C programming course for freshman \newline
-        - Facilitate study groups, workshops, and social events \newline
-        - Assist with questions about ISU, the Software Engineering major, and transitioning to college life
+        - Host office hours and labs for an introduction to C programming course for freshman in the fall \newline
+        - Teach a software, project-based course for freshman in the spring \newline
+        - Facilitate study groups, workshops, and social events for the learning community \newline
+        - Assist with questions about ISU, transitioning to college life, and the Software Engineering major
     }
-    \entry{Life Gaurd}{January 2019 - May 2019}
+    \entry{Life Guard}{Jan 2019 - May 2019}
     {Iowa State University, Ames, IA}
     {
         - Responsible for watching swimmers to assure safety \newline
@@ -85,20 +94,25 @@
 %%%%%%%%%%%
 \begin{topic}{Projects}
     % \entry{name}{dates}{tools used}{description}
-    \entry{Self Updating profile README}{Summer 2020}
+    \entry{Self-updating Github Profile README}{Summer 2020}
     {Python, Spotify API, GitHub Actions}
     {
-        I created a profile README for my GitHub account that, using GithHub Actions, updated with my most recent top Spotify tracks every night at midnight.
+        I created a profile README for my GitHub account that, using GitHub Actions, updates with my most recent top Spotify tracks every night at midnight.
+    }
+    \entry{Instagram Bot}{Summer 2020}
+    {Python, Selenium, GitHub Actions}
+    {
+        I created an Instagram "bot" that will go through my account's feed and like my friends' posts. This was made so I could take breaks from social media while still being presumed as active.
     }
     \entry{Simplmeals}{Summer 2019}
-    {React, HTML, CSS, and Firebase}
+    {React, HTML, CSS, Firebase}
     {
-        Simplmeals allows you to log in using your Google account. Users can add recipes and plan meals while Simplmeals automatically creates your weekly grocery lists.
+        Simplmeals allows you to log in using your Google account. Users can store recipes and plan meals for each day. The site also automatically creates your weekly grocery lists.
     }
     \entry{RGB LED Light Box}{Summer 2019}
-    {C/C++, Arduino, RGB LED light strip, 2x4’s, and acrylic}
+    {C, Arduino, RGB LED light strip}
     {
-        I used an Arduino along with an RGB light strip to create a light box that is controllable using an infrared remote.
+        I used an Arduino to control an RGB light strip to create a light box that is controllable using an infrared remote. It was made to act as a faux window that changes colors depending on the time of day.
     }\\
 \end{topic}
 

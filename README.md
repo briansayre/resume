@@ -1,13 +1,13 @@
-# resume
+# Brian Sayre's Resume
 
 This is my resume.
 
-![example resume](https://github.com/briansayre/resume/blob/master/resources/images/resume.png)
+![Click here to check out my resume!](https://github.com/briansayre/resume/blob/master/resume.pdf)
 
 ## Installation
 
 Either clone the latest version of this repository or download and extract an
-archive from [releases](https://github.com/knyte/resume/releases).
+archive from [releases](https://github.com/briansayre/resume/releases).
 
 ## Usage
 

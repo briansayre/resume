@@ -13,7 +13,7 @@
 \setlength{\parskip}{0pt}
 
 % Misc. package Imports
-\usepackage[hmargin=0.5in, vmargin=.75in]{geometry}
+\usepackage[hmargin=0.5in, vmargin=0.5in]{geometry}
 \usepackage{verbatim} % to enable multiline comments
 \usepackage[hidelinks]{hyperref}
 
@@ -53,10 +53,10 @@
 \newcommand{\labeltab}{1.25in}
 
 %%% datetab
-\newcommand{\datetab}{6.2in}
+\newcommand{\datetab}{6.3in}
 
 %%% desctab - description tab
-\newcommand{\desctab}{6.05in}
+\newcommand{\desctab}{6.15in}
 
 %% font specifications
 %%% site
@@ -72,7 +72,7 @@
 %%% section header
 \newcommand{\sechead}[1]{
     \fontsize{10pt}{12pt}
-    \fontspec[Path=resources/fonts/Muli/]{Muli-Regular}\selectfont #1
+    \fontspec[Path=resources/fonts/Muli/]{Muli-Bold}\selectfont #1
 }
 
 %%% section subheader
@@ -85,13 +85,19 @@
 \newcommand{\shortdesc}[1]{
     \fontsize{10pt}{12pt}
     \fontspec[Path=resources/fonts/PT_Sans/]
-    {PT_Sans-Web-Regular}\selectfont\MakeUppercase{#1}
+    {PT_Sans-Web-Italic}\selectfont{#1}
 }
 
 %%% content
 \newcommand{\content}{
     \fontsize{10pt}{12pt}
     \fontspec[Path=resources/fonts/PT_Sans/]{PT_Sans-Web-Regular}\selectfont
+}
+
+%%% content
+\newcommand{\contentbold}{
+    \fontsize{10pt}{12pt}
+    \fontspec[Path=resources/fonts/PT_Sans/]{PT_Sans-Web-BoldItalic}\selectfont
 }
 
 %% makeheader
@@ -106,10 +112,10 @@
 
 %% entry
 \newcommand{\entry}[4]{
-    \>\secsub{#1} \> \content{#2} \' \\
+    \>\secsub{#1} \> \contentbold{#2} \' \\
     \>\shortdesc{#3}\\[\entryspace]
     \>\ 
-    \begin{minipage}{\desctab}
+    \begin{minipage}{\desctab} 
     \content{#4} \\
     \end{minipage}\\
 }
