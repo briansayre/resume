@@ -1,0 +1,115 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% resume - one page, one column
+% XeLaTeX Template
+% Version 1.1 (09.05.2017)
+%
+% Original Author: knyte (https://github.com/knyte)
+%
+% Repository: https://github.com/briansayre/resume
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{resume}
+ 
+\begin{document}
+
+%%%%%%%%%
+% HEADER
+%%%%%%%%%
+
+% \makeheader{title/name}
+\makeheader{Brian Sayre}
+
+%%%%%%%%%%%%
+% SUBHEADER
+%%%%%%%%%%%%
+
+% argument to environment should match number of sites
+\begin{subheader}{1}
+    % leave third argument empty to specify no hyperlink
+    \site{GitHub}{github.com/briansayre}{https://github.com/briansayre}
+    \site{Personal}{briansayre.com}{https://www.briansayre.com}
+    \site{Email}{bsayre@iastate.edu}{}
+    \site{Phone}{(319)-804-5234}{}\\
+\end{subheader}
+
+%%%%%%%%%
+% SKILLS
+%%%%%%%%%
+\begin{topic}{Skills}
+    % \skillset{category}{members}
+    \skillset{Languages}{Java, Python, C, JavaScript}\\
+    \skillset{Tools}{AWS, React, Unix shell, {\fontfamily{cmr}\selectfont \LaTeX}}\\
+\end{topic}
+
+%%%%%%%%%%%%
+% EDUCATION
+%%%%%%%%%%%%
+\begin{topic}{Education}
+    % \entry{institution}{dates}{subtitle}{description}
+    \entry{Iowa State University}{August 2018 - May 2022}
+    {Bachelor of Science in Software Engineering}
+    {Data Science Minor \newline 3.89/4.00 GPA}\\
+\end{topic}
+
+%%%%%%%%%%%%%
+% EXPERIENCE
+%%%%%%%%%%%%%
+\begin{topic}{Experience}
+    % \entry{role}{dates}{team/company}{description}
+    \entry{Software Engineering Intern}{May 2020 - August 2020}
+    {Principal Financial Group, Des Moines, IA}
+    {
+        - Did AWS \newline
+        - More Stuff \newline
+        - Yeet
+    }
+    \entry{Software Engineering Learning Community Peer Mentor}{August 2019 - Present}
+    {Iowa State University, Ames, IA}
+    {
+        - Host office hours and attend labs for an introduction to C programming course for freshman \newline
+        - Facilitate study groups, workshops, and social events \newline
+        - Assist with questions about ISU, the Software Engineering major, and transitioning to college life
+    }
+    \entry{Life Gaurd}{January 2019 - May 2019}
+    {Iowa State University, Ames, IA}
+    {
+        - Responsible for watching swimmers to assure safety \newline
+        - Clearly communicate and enforce pool rules \newline
+        - Carefully test and maintain chemical levels
+    }\\
+\end{topic}
+
+%%%%%%%%%%%
+% PROJECTS
+%%%%%%%%%%%
+\begin{topic}{Projects}
+    % \entry{name}{dates}{tools used}{description}
+    \entry{Self Updating profile README}{Summer 2020}
+    {Python, Spotify API, GitHub Actions}
+    {
+        I created a profile README for my GitHub account that, using GithHub Actions, updated with my most recent top Spotify tracks every night at midnight.
+    }
+    \entry{Simplmeals}{Summer 2019}
+    {React, HTML, CSS, and Firebase}
+    {
+        Simplmeals allows you to log in using your Google account. Users can add recipes and plan meals while Simplmeals automatically creates your weekly grocery lists.
+    }
+    \entry{RGB LED Light Box}{Summer 2019}
+    {C/C++, Arduino, RGB LED light strip, 2x4’s, and acrylic}
+    {
+        I used an Arduino along with an RGB light strip to create a light box that is controllable using an infrared remote.
+    }\\
+\end{topic}
+
+%%%%%%%%%%%%%
+% INVOLVEMENT
+%%%%%%%%%%%%%
+\begin{topic}{Involvement}
+    % \honor{award}{date/location}
+    \honor{Software Engineering Learning Community Peer Mentor}{}
+    % \honor{Linux club member}{}
+    \honor{Engineering Career Fair Ambassador}{}
+\end{topic}
+
+\end{document}
