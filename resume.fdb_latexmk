@@ -1,12 +1,12 @@
 # Fdb version 3
-["xdvipdfmx"] 1597876065 "/home/brian/Documents/Projects/resume/resume.xdv" "/home/brian/Documents/Projects/resume/resume.pdf" "/home/brian/Documents/Projects/resume/resume" 1597876077
-  "/home/brian/Documents/Projects/resume/resume.xdv" 1597876065 27348 bab91819c4660e32e770f7e1fa696037 "xelatex"
+["xdvipdfmx"] 1597877027 "/home/brian/Documents/Projects/resume/resume.xdv" "/home/brian/Documents/Projects/resume/resume.pdf" "/home/brian/Documents/Projects/resume/resume" 1597877027
+  "/home/brian/Documents/Projects/resume/resume.xdv" 1597877027 27340 144b7226cfbc97facc348e4107a688e9 "xelatex"
   (generated)
   "/home/brian/Documents/Projects/resume/resume.pdf"
-["xelatex"] 1597876064 "/home/brian/Documents/Projects/resume/resume.tex" "/home/brian/Documents/Projects/resume/resume.xdv" "resume" 1597876077
+["xelatex"] 1597877026 "/home/brian/Documents/Projects/resume/resume.tex" "/home/brian/Documents/Projects/resume/resume.xdv" "resume" 1597877027
   "/etc/texmf/web2c/texmf.cnf" 1596146494 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/brian/Documents/Projects/resume/resume.aux" 1597876065 628 d7e220032505a35769727f9a56206a70 ""
-  "/home/brian/Documents/Projects/resume/resume.tex" 1597876076 4450 7dcb49cbfbc97f5c41a3f22a3980726b ""
+  "/home/brian/Documents/Projects/resume/resume.aux" 1597877027 628 d7e220032505a35769727f9a56206a70 ""
+  "/home/brian/Documents/Projects/resume/resume.tex" 1597877026 4449 013ea80ae21894bac289e155fbd20d87 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/share/texlive/texmf-dist/tex/generic/atbegshi/atbegshi.sty" 1575674566 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
@@ -63,14 +63,14 @@
   "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1581979058 38841 ce3692aa899bb693b90b87eaa5d4d84e ""
   "/usr/share/texmf/web2c/texmf.cnf" 1581979058 38841 ce3692aa899bb693b90b87eaa5d4d84e ""
   "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1596150351 4650119 1114e82bf21d5b43442991ecd1bc5c76 ""
-  "resume.aux" 1597876065 628 d7e220032505a35769727f9a56206a70 "xelatex"
+  "resume.aux" 1597877027 628 d7e220032505a35769727f9a56206a70 "xelatex"
   "resume.cls" 1597875602 3661 a0b01d3f4564a7722eccdccf7bbdcccd ""
-  "resume.out" 1597876065 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
-  "resume.tex" 1597876076 4450 7dcb49cbfbc97f5c41a3f22a3980726b ""
+  "resume.out" 1597877027 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
+  "resume.tex" 1597877026 4449 013ea80ae21894bac289e155fbd20d87 ""
   (generated)
-  "resume.log"
-  "resume.aux"
-  "resume.xdv"
   "resume.out"
+  "resume.xdv"
   "/home/brian/Documents/Projects/resume/resume.xdv"
+  "resume.aux"
   "/home/brian/Documents/Projects/resume/resume.log"
+  "resume.log"
